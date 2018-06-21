@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="1" total="2" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="11823" started-at="2018-06-21T03:04:46Z" finished-at="2018-06-21T03:04:58Z">
+  <suite name="Default suite" duration-ms="11336" started-at="2018-06-21T16:03:52Z" finished-at="2018-06-21T16:04:03Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="11823" started-at="2018-06-21T03:04:46Z" finished-at="2018-06-21T03:04:58Z">
+    <test name="Default test" duration-ms="11336" started-at="2018-06-21T16:03:52Z" finished-at="2018-06-21T16:04:03Z">
       <class name="com.rightmove.qa.testcases.BuySearchPageTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.rightmove.qa.testcases.BuySearchPageTest@6a4f787b]" name="setUp" is-config="true" duration-ms="5163" started-at="2018-06-21T03:04:46Z" finished-at="2018-06-21T03:04:51Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.rightmove.qa.testcases.BuySearchPageTest@1794d431]" name="setUp" is-config="true" duration-ms="4460" started-at="2018-06-21T16:03:52Z" finished-at="2018-06-21T16:03:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="findPropertiesTest()[pri:2, instance:com.rightmove.qa.testcases.BuySearchPageTest@6a4f787b]" name="findPropertiesTest" duration-ms="6452" started-at="2018-06-21T03:04:51Z" finished-at="2018-06-21T03:04:58Z">
+        <test-method status="PASS" signature="findPropertiesTest()[pri:2, instance:com.rightmove.qa.testcases.BuySearchPageTest@1794d431]" name="findPropertiesTest" duration-ms="6716" started-at="2018-06-21T16:03:56Z" finished-at="2018-06-21T16:04:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- findPropertiesTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.rightmove.qa.testcases.BuySearchPageTest@6a4f787b]" name="tearDown" is-config="true" duration-ms="176" started-at="2018-06-21T03:04:58Z" finished-at="2018-06-21T03:04:58Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.rightmove.qa.testcases.BuySearchPageTest@1794d431]" name="tearDown" is-config="true" duration-ms="128" started-at="2018-06-21T16:04:03Z" finished-at="2018-06-21T16:04:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

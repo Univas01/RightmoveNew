@@ -135,7 +135,7 @@
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">/private/var/folders/xm/wk8cgmhj2n10pmzsd_3_l0d00000gn/T/testng-eclipse--1340218155/testng-customsuite.xml</span>
+            <span class="header-content">/private/var/folders/7m/68ny4cb903j1ljftnh7wp3dwyhs2qr/T/testng-eclipse--274805317/testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -144,7 +144,11 @@
 &lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Default suite&quot;&gt;
   &lt;test thread-count=&quot;5&quot; verbose=&quot;2&quot; name=&quot;Default test&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;com.rightmove.qa.testcases.BuySearchPageTest&quot;/&gt;
+      &lt;class name=&quot;com.rightmove.qa.testcases.BuySearchPageTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;findPropertiesTest&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- com.rightmove.qa.testcases.BuySearchPageTest --&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Default test --&gt;
 &lt;/suite&gt; &lt;!-- Default suite --&gt;
@@ -188,7 +192,7 @@ data.addRows(1);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'findPropertiesTest')
 data.setCell(0, 2, 'com.rightmove.qa.testcases.BuySearchPageTest')
-data.setCell(0, 3, 6452);
+data.setCell(0, 3, 6716);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
@@ -233,11 +237,11 @@ return data;
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">findPropertiesTest</span>
-                <span class="method-start">5164 ms</span>
+                <span class="method-start">4464 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">11618 ms</span>
+                <span class="method-start">11182 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

@@ -15,6 +15,7 @@ public class BuySearchPageTest extends TestBase {
 	HomePage homePage;
 	SearchPage buySearchPage;
 	TestUtil testUtil;
+	String buyTtitle;
 
 	public BuySearchPageTest() {
 		super();
@@ -52,7 +53,7 @@ public class BuySearchPageTest extends TestBase {
 				"1", "3", "Flats / Apartments", "Last 7 days");
 		buySearchPage.clickOnSortOrderDDM().selectByVisibleText("Newest Listed");
 		buySearchPage.clickOnFirstNonFeaturedProperty();
-		String buyTtitle = buySearchPage.verifyFirstNonFeaturedPropertyTitlePage();
+		buyTtitle = buySearchPage.verifyFirstNonFeaturedPropertyTitlePage();
 
 		if (buyTtitle.contains("for sale")) {
 			System.out.println("First Non-Featured Property successfully loaded");
