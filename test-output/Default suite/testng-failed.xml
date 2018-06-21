@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.rightmove.qa.testcases.BuySearchPageTest">
+      <class name="com.rightmove.qa.testcases.RentSearchPageTest">
         <methods>
-          <include name="setUp"/>
           <include name="findPropertiesTest"/>
           <include name="tearDown"/>
+          <include name="setUp"/>
         </methods>
-      </class> <!-- com.rightmove.qa.testcases.BuySearchPageTest -->
+      </class> <!-- com.rightmove.qa.testcases.RentSearchPageTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

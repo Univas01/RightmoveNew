@@ -46,10 +46,10 @@ public class HomePage extends TestBase {
 		return new SearchPage();
 	}
 	
-	public SearchPage toRentSearch(String enterKeyword) {
+	public RentSearchPage toRentSearch(String enterKeyword) {
 		searchBox.sendKeys(enterKeyword);
 		TestUtil.clickMethodJS(toRentBtn);
-		return new SearchPage();
+		return new RentSearchPage();
 	}
 	
 	public void invalidForSaleSearchOperation(String enterKeyword) {

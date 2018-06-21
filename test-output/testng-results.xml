@@ -1,25 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="1" total="2" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="11336" started-at="2018-06-21T16:03:52Z" finished-at="2018-06-21T16:04:03Z">
+  <suite name="Default suite" duration-ms="14878" started-at="2018-06-21T17:19:29Z" finished-at="2018-06-21T17:19:44Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="11336" started-at="2018-06-21T16:03:52Z" finished-at="2018-06-21T16:04:03Z">
-      <class name="com.rightmove.qa.testcases.BuySearchPageTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.rightmove.qa.testcases.BuySearchPageTest@1794d431]" name="setUp" is-config="true" duration-ms="4460" started-at="2018-06-21T16:03:52Z" finished-at="2018-06-21T16:03:56Z">
+    <test name="Default test" duration-ms="14878" started-at="2018-06-21T17:19:29Z" finished-at="2018-06-21T17:19:44Z">
+      <class name="com.rightmove.qa.testcases.RentSearchPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.rightmove.qa.testcases.RentSearchPageTest@5622fdf]" name="setUp" is-config="true" duration-ms="4758" started-at="2018-06-21T17:19:29Z" finished-at="2018-06-21T17:19:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="findPropertiesTest()[pri:2, instance:com.rightmove.qa.testcases.BuySearchPageTest@1794d431]" name="findPropertiesTest" duration-ms="6716" started-at="2018-06-21T16:03:56Z" finished-at="2018-06-21T16:04:03Z">
+        <test-method status="PASS" signature="verifyRentHeaderTitleTest()[pri:1, instance:com.rightmove.qa.testcases.RentSearchPageTest@5622fdf]" name="verifyRentHeaderTitleTest" duration-ms="45" started-at="2018-06-21T17:19:34Z" finished-at="2018-06-21T17:19:34Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- findPropertiesTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.rightmove.qa.testcases.BuySearchPageTest@1794d431]" name="tearDown" is-config="true" duration-ms="128" started-at="2018-06-21T16:04:03Z" finished-at="2018-06-21T16:04:03Z">
+        </test-method> <!-- verifyRentHeaderTitleTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.rightmove.qa.testcases.RentSearchPageTest@5622fdf]" name="tearDown" is-config="true" duration-ms="96" started-at="2018-06-21T17:19:34Z" finished-at="2018-06-21T17:19:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.rightmove.qa.testcases.BuySearchPageTest -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.rightmove.qa.testcases.RentSearchPageTest@5622fdf]" name="setUp" is-config="true" duration-ms="3774" started-at="2018-06-21T17:19:34Z" finished-at="2018-06-21T17:19:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="findPropertiesTest()[pri:2, instance:com.rightmove.qa.testcases.RentSearchPageTest@5622fdf]" name="findPropertiesTest" duration-ms="6018" started-at="2018-06-21T17:19:38Z" finished-at="2018-06-21T17:19:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- findPropertiesTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.rightmove.qa.testcases.RentSearchPageTest@5622fdf]" name="tearDown" is-config="true" duration-ms="139" started-at="2018-06-21T17:19:44Z" finished-at="2018-06-21T17:19:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.rightmove.qa.testcases.RentSearchPageTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
